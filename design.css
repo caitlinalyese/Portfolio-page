@@ -1,0 +1,99 @@
+@charset "utf-8";
+
+body {
+    background-image: url(images/pastelbackground.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+img {
+	align-content: center;
+}
+
+.sidebar {
+	width: 290px;
+    min-height: 200px;
+    float: right;
+    padding-top: 10px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+}
+
+.main-copy {
+    width: 500px;
+    min-height: 200px;
+    margin-right: 50px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    float: left;
+    background-color: #EBC3DD;
+}
+
+footer {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    text-align: center;
+    float: left;
+    color: black;
+    font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+    border-color: #F176A1;
+    border-style: solid;    
+}
+
+nav {
+    position: relative;
+    width: 100%;
+    margin-bottom: 17px;
+    padding-top: 4px;
+    padding-right: 4px;
+    padding-bottom: 4px;
+    padding-left: 4px;
+    font-size: 17px;
+    text-align: center;
+    background-color: rgba(241,118,161,1.00);
+    margin-top: -10px;
+    margin-right: 0px;
+	margin-left: 0px;
+}
+
+nav p {
+    display: inline-block;
+    padding: 5px 5px 0px 5px;
+    border-right: 3px solid #F8C4DB;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    margin-top: 5px;
+}
+nav p a {
+    color: #000000;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;	
+}
+nav p a:hover {
+    text-shadow: 0px 0px 7px rgba(248,187,213,1.00);
+    color: rgba(0,0,0,1.00);
+}
+
+
+h2 {
+	border: medium solid #F6A1B4;
+    text-align: center;
+    font-family: aguafina-script;
+    font-style: normal;
+    font-weight: 400;
+    font-size: xx-large;
+    text-decoration: none;
+	letter-spacing: 3pt;
+}
+
+p {
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-size: large;
+}
+
+h3 {
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+    font-size: xx-large;
+}
