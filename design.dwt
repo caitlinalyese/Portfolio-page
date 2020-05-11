@@ -31,8 +31,10 @@
     </section><!-- TemplateEndEditable -->
 
 </div>
-	
-<footer> Website Designed By: Caitlin Pierce </footer>
+
+<footer>
+	<p>Website Designed By: Caitlin Pierce</p>
+</footer>
 
 </main>
 </body>
