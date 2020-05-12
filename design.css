@@ -36,13 +36,15 @@ img {
 
 footer {
     width: 100%;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 50px;
+    margin-bottom: -50px;
     text-align: center;
-    background-color: #FFFFFF;
-    border-top: medium solid #000000;
-    border-bottom-width: medium;
-    border-bottom-style: solid;
+    float: left;
+    color: black;
+    font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+    border-color: #F176A1;
+    border-style: solid; 
+	flex-shrink: 0;
 }
 
 nav {
